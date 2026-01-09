@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/about-back.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a final-year IT Undergraduate at Rajarata University of Sri Lanka, focused on full-stack development and artificial intelligence. I enjoy building scalable applications and exploring modern machine learning techniques.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Full-stack Development",
+  "JavaScript & React.js",
+  "Python & Machine Learning",
+  "Node.js & Backend APIs",
+  "Database Design (SQL)",
+  "Git & Version Control",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about developing practical software solutions that solve real-world problems. My interests lie in combining full-stack development with artificial intelligence to build intelligent and scalable systems. Alongside my technical work, I serve as the Publicity Team Lead of the IEEE Student Branch at RUSL, where I contribute to technical outreach and event coordination. I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (

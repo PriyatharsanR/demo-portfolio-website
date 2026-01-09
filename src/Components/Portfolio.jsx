@@ -10,49 +10,51 @@
 
 import React from "react";
 
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
+/*Desk image*/
+
 import image from "../images/design-desk.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
-/**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */
+
+/* Project list */
+
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "SMARTAR Trainer - AI Fitness Coach",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An AI-powered fitness application using BlazePose and AR overlays to analyze workout posture and provide real-time corrective feedback.",
+    url: "https://github.com/PriyatharsanR",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Student Performance Prediction Model",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A machine learning project that predicts academic performance of computing students using a neural network model and real academic data.",
+    url: "https://github.com/PriyatharsanR/student-performance-prediction-model",
   },
   {
-    title: "My Resume Site",
+    title: "AgriThumb Store - Online Agriculture Marketplace",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A full-stack web application for purchasing plants, seeds, tools, fertilizers, and other farming essentials through an online platform.",
+    url: "https://github.com/PriyatharsanR/agrithumb-store",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "SmartFit Trainer",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An AI-powered fitness assistant that provides personalized home workout guidance using Retrieval-Augmented Generation (RAG) and OpenAI LLMs.",
+    url: "https://github.com/PriyatharsanR/smartfit-trainer",
+  },
+  {
+    title: "BookMyFlick - Android Movie Booking App",
+    description:
+      "An Android application that allows users to browse movies, view details, and book tickets with a clean and modern user interface.",
+    url: "https://github.com/PriyatharsanR/bookmyflick-android",
+  },
+  {
+    title: "NP Fitness Training Website",
+    description:
+      "A responsive fitness website designed to promote workout programs and support users on their fitness journey.",
+    url: "https://github.com/PriyatharsanR/website-for-NP-Fitness-training",
   },
 ];
 
@@ -64,7 +66,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }}
             alt={imageAltText}
           />
         </div>
